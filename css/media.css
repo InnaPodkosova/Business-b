@@ -1,0 +1,427 @@
+@media (max-width: 1199px){
+    .menu-site {
+        justify-content: space-around;
+    }
+    .advantages-wrap {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 991px){
+  .mail-none{
+      display: none;
+  }
+    .catalog-bl {
+        width: 40%;
+
+    }
+}
+
+@media (max-width: 810px) {
+    .ft-tel-input input {
+        width: 320px;
+    }
+}
+
+@media (max-width: 767px){
+    .head-wrap{
+        border-bottom: 0 solid #e9ecef;
+    }
+    .phone-none{
+        display: none;
+    }
+    .phone-res{
+        margin-right: 65px;
+    }
+    .phone {
+        margin-right: 5px;
+    }
+    .btn-mob-v{
+        position: absolute;
+        right: 15px;
+        top: -50px;
+    }
+    .navbar-toggler {
+        width: 40px;
+        height: 35px;
+        padding: 0 5px;
+        background-color: #e65100;
+        border: 1px solid #e65100;
+        border-radius: .25rem;
+    }
+    .navbar-toggler .line{
+        width: 100%;
+        float: left;
+        height: 3px;
+        background-color: #fff;
+    }
+    .nav-site{
+        height: 0;
+    }
+    .nav-mob{
+        position: absolute;
+        display: block;
+        margin: 0 4%;
+        width: 92%;
+        background-color: #eceff1;
+        top: 5px;
+        z-index: 500;
+    }
+    .line-m{
+        margin-bottom: 6px;
+    }
+    .nav-link:hover:before {
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .nav-link:hover{
+        background-color: #e65100;
+    }
+    .nav-link:after {
+        position: absolute;
+        content: " ";
+        bottom: 0;
+        display: block;
+        width: 96%;
+        margin: 0 2%;
+        border-bottom: 1px solid #e1e4e6;
+        height: 1px;
+
+    }
+    .nav-link:hover:after {
+        border-bottom: 1px solid #e65100;
+    }
+    .politic-info {
+        margin-left: 37px;
+    }
+    .advantages-wrap {
+        flex-wrap: wrap;
+    }
+    .advantages-bl{
+        width: 35%;
+        margin: 25px 0;
+    }
+    .consultation-wrap h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .consultation-wrap{
+        padding: 37px 30px;
+        flex-wrap: wrap;
+    }
+    .consultation-wrap div{
+        width: 100%;
+    }
+    .consultation-question{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+    .consultation-question button{
+        margin-right: 25px;
+    }
+    .ft-form,
+    .footer-ask{
+        justify-content: center;
+    }
+    .ft-tel-input input {
+        width: 210px;
+    }
+    .company-headline h1 {
+        font-size: 27px;
+        line-height: 23px;
+    }
+    .page-headline h2 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 13px;
+    }
+    .catalog-bl {
+        width: 45%;
+    }
+    .catalog-img img {
+        height: 145px;
+    }
+    .catalog-body p {
+        min-height: 85px;
+    }
+
+}
+@media (max-width: 680px) {
+    .privaci{
+        display: none;
+    }
+    .privaci-mob{
+        display: block;
+    }
+    .privaci-mob p{
+        margin: 0;
+        padding-top: 10px;
+    }
+    .footer-nav ul {
+        padding: 0;
+    }
+    .ft-form{
+        display: none;
+    }
+    .footer-form-mob{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px){
+    .custom-control-label::before,
+    .custom-control-label::after{
+        left: -1.5rem;
+    }
+    .politic-info {
+        margin-left: 25px;
+    }
+    .advantages-bl {
+        width: 50%;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 548px){
+    .logo {
+        height: 60px;
+        line-height: 75px;
+    }
+    .logo img {
+        max-height: 40px;
+    }
+    .top-callback {
+        padding: 25px 15px 0;
+        line-height: 22px;
+    }
+    .phone {
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .navbar-toggler {
+        height: 30px;
+        width: 34px;
+    }
+    .phone-res {
+        margin-right: 55px;
+    }
+    .navbar-toggler .line {
+        height: 3px;
+    }
+    .line-m {
+        margin-bottom: 4px;
+    }
+    .btn-mob-v {
+        top: -40px;
+    }
+    .icon-mob-p2{
+        width: 40px;
+        height: 40px;
+    }
+    .icon-mob-p2 img {
+        margin-top: 11px;
+        width: 19px;
+    }
+    .footer-nav ul {
+        justify-content: start;
+    }
+    .footer-nav ul li {
+        margin: 0 5px;
+        width: 40%;
+    }
+    .ask-txt p{
+        width: 120%;
+    }
+    .com-page h1{
+        font-size: 21px;
+        line-height: 20px;
+    }
+    .company-page-img {
+        margin: 5px 0 5px;
+    }
+    .company-headline {
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 13px;
+    }
+    .page-headline h2 {
+        font-size: 19px;
+    }
+    .btn-orange {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .catalog-bl {
+        width: 75%;
+    }
+    .catalog-body p {
+        min-height: 60px;
+    }
+    .catalog-body h4 {
+        min-height: 50px;
+        padding-top: 20px;
+    }
+
+}
+@media (max-width: 480px){
+    .order-services-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 25px 0;
+    }
+    .order-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    .catalog-bl {
+        width: 85%;
+    }
+}
+@media (max-width: 420px){
+    .logo img {
+        max-height: 30px;
+    }
+    .phone {
+        font-size: 12px;
+        margin-right: 17px;
+    }
+    .top-callback {
+        padding: 20px 15px 0;
+        line-height: 22px;
+    }
+    .logo {
+        height: 50px;
+        line-height: 60px;
+    }
+    .phone-res {
+        margin-right: 35px;
+    }
+    .btn-mob-v {
+        top: -35px;
+    }
+    .advantages-bl {
+        width: 60%;
+        margin: 15px 0;
+    }
+    .consultation-wrap {
+        padding: 30px 25px;
+    }
+    .footer-botton {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-nav ul {
+        justify-content: center;
+    }
+    .footer-nav ul li {
+        margin: 0 5px;
+        width: 29%;
+    }
+    .footer-nav ul li a {
+        font-size: 10px;
+    }
+    .footer-contact{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .btn-q {
+        padding: 6px 7px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .ask-txt {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .ask-txt p {
+        width: 170%;
+    }
+    .ft-form, .footer-ask {
+        align-items: center;
+    }
+    .icon-ask img {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-botton {
+        padding: 20px 0;
+    }
+    .footer-nav ul li {
+        padding-left: 15px;
+    }
+    .footer-tel {
+        font-size: 12px;
+    }
+    .footer-tel a, .footer-mail a {
+        margin-left: 6px;
+    }
+    .privaci-mob{
+        margin: 0 15px;
+    }
+    .footer-top {
+        padding: 10px 0;
+    }
+    .company-headline h1 {
+        font-size: 24px;
+        line-height: 17px;
+    }
+    .consultation-wrap h2 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 380px){
+    .form-head-content h3 {
+        font-size: 19px;
+    }
+    .form-head-content p {
+        font-size: 12px;
+    }
+    .icon-mob-p {
+        margin-right: 15px;
+    }
+    .close {
+        right: 15px;
+        top: 20px;
+    }
+    .form-head {
+        padding: 25px 14px;
+    }
+    .advantages-bl {
+        width: 65%;
+    }
+    .footer-nav ul li {
+        padding-left: 9px;
+    }
+    .company-headline h1 {
+        font-size: 22px;
+        line-height: 15px;
+    }
+    .com-page h1 {
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .company-headline {
+        margin-bottom: 20px;
+    }
+    .page-headline h2 {
+        font-size: 16px;
+    }
+    .catalog-bl {
+        width: 100%;
+    }
+
+
+}

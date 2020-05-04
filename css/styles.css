@@ -1,0 +1,709 @@
+/* =======
+  Plan
+
+    1. Header
+    2. Menu
+    3. Slider
+    4. Popup telefon
+    ---- page 1 ---
+    5. Advantages
+    6. consultation
+    7. company-main
+    8. clients-slider
+    -----    -----
+    9 footer
+    ---- page 2 ---
+    10. Company page
+    ---- page 3 ---
+    11.
+    ---- page 4 ---
+    12.  Services page
+
+    =======*/
+
+/* ======= header ========*/
+
+p {
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+body {
+    background-color: white;
+    font: 13px/20px "Ubuntu", Arial, sans-serif;
+}
+h4 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+header {
+    clear: both;
+    color: #222222;
+    background-color: #ffffff;
+    position: relative;
+}
+.page-headline h2{
+    font-size: 32px;
+    line-height: 26px;
+}
+.page-content{
+    padding: 0 15px;
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.head-wrap {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.border-head {
+    border-top: 2px solid #e65100;
+}
+
+.logo {
+    height: 75px;
+    line-height: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.top-description {
+    color: #95979a;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 29px 0 0 20px;
+}
+
+.contact-head {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-head img {
+    width: 28px;
+    height: 28px;
+}
+
+.contact-head h4 {
+    font-size: 17px;
+    padding: 3px 0 0 10px;
+    font-weight: 600;
+}
+
+.top-callback {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 15px 0;
+    line-height: 28px;
+}
+
+.btn-default.white {
+    color: #e65100 !important;
+    border: 1px solid #e65100;
+    background: #ffffff;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.btn-default.white:hover {
+    color: #ffffff !important;
+    border: 1px solid #e65100;
+    background: #e65100;
+}
+
+.phone {
+    font-size: 18px;
+    margin-right: 17px;
+}
+
+.callibri_phone {
+    font-weight: 600;
+    color: #222222;
+}
+
+.callibri_phone span {
+    color: #969ba5;
+}
+
+.phone-desc {
+    color: #95979a;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: -2px;
+    text-align: right;
+    max-width: 310px;
+    margin-bottom: 18px;
+}
+
+.phone-number {
+    display: flex;
+    justify-content: start;
+}
+
+.icon-mob {
+    display: block;
+    text-align: center;
+    background-color: #e65100;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.icon-mob img {
+    margin-top: -4px;
+    width: 12px;
+}
+
+.btn-xs {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 7px 14px 6px;
+    border-radius: 1px;
+}
+
+.nav-head {
+    display: none;
+}
+
+/* ============ Menu ===============*/
+.nav-site {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    height: 40px;
+}
+
+.menu-site {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar {
+    padding: .2rem 0;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #272940;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e65100;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #e65100;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link:hover:before {
+    content: '';
+    z-index: 100;
+    position: absolute;
+    bottom: -5px;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #d24a00;
+    display: block;
+}
+
+/* ============ Slider ===============*/
+
+.slider-item {
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide-one {
+    background-image: url("../img/slide-1.jpg");
+}
+
+.slide-two {
+    background-image: url("../img/slide-2.jpg");
+}
+
+.slide-three {
+    background-image: url("../img/slide-3.jpg");
+}
+
+.slick-next {
+    right: 15px;
+}
+
+.slick-prev {
+    left: 15px;
+    z-index: 10;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #545b62;
+}
+.slick-dots {
+    bottom: 10px;
+}
+
+/* ============ Popup FormTelepfon ===============*/
+
+.form-head {
+    border-top: 2px solid #e65100;
+    background-color: #eaf0f2;
+    padding: 25px 25px;
+}
+
+.form-head-txt {
+    display: flex;
+    justify-content: start;
+}
+
+.icon-mob-p{
+    display: block;
+    text-align: center;
+    background-color: #e65100;
+    width: 54px;
+    height: 54px;
+    margin-right: 20px;
+}
+
+.icon-mob-p img{
+    margin-top: 13px;
+    width: 28px;
+}
+
+.form-head-content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 5px;
+    color: #2f383d;
+}
+
+.form-head-content p {
+    color: #555;
+    margin: 0;
+    font-size: 13px;
+}
+
+.close {
+    line-height: 0;
+    text-align: center;
+    color: #c2cbd2;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 900;
+    opacity: .9;
+}
+
+.close:hover {
+    color: #e65100;
+}
+
+.required-star {
+    color: #e02222;
+    margin-left: 3px;
+    font-weight: normal;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star {
+    background: none repeat scroll 0 0 #7b8e9a;
+    border-radius: 20px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 22px;
+    height: 20px;
+    line-height: 24px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-right: 1px;
+    text-align: center;
+    vertical-align: top;
+    width: 20px;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    left: -2.3rem;
+}
+
+.politic-info {
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.btn-orange {
+    text-transform: uppercase;
+    background-color: #e65100;
+    border-color: #e65100;
+    color: #ffffff !important;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.btn-orange:hover {
+    background-color: #ea6b25d9;
+    border-color: #ea6b25d9;
+}
+
+.required-fileds {
+    padding: 7px 0;
+    color: #98a1a8;
+    font-size: 12px;
+}
+
+/* ============ Advantages ===============*/
+
+.advantages-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.advantages-bl{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.advantages-txt{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+    max-height: 98px;
+    overflow: hidden;
+    color: #767676;
+}
+.advantages-txt p{
+    margin: 0;
+    padding-left: 5px;
+}
+.advantages-txt:hover{
+    color: #333333;
+}
+
+/* ============ consultation ===============*/
+
+.consultation-wrap{
+    border-left: 2px solid #e25000;
+    background-image: url("../img/bg-consult.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 37px 50px;
+    color: #2f383d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.consultation-wrap h2{
+    font-size: 28px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.consultation-wrap  p{
+    margin: 0;
+    font-size: 13px;
+}
+.consultation-content{
+    max-width: 680px;
+}
+.consultation-question{
+    margin-left: 25px;
+    flex: none;
+}
+.icon-mob-p2{
+    display: block;
+    text-align: center;
+    background-color: #e65100;
+    width: 54px;
+    height: 54px;
+    margin-right: 20px;
+    flex: none;
+}
+.icon-mob-p2 img{
+    margin-top: 13px;
+    width: 28px;
+}
+
+/* ============ company-main ===============*/
+
+.company-main-info{
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.company-headline{
+    display: inline-block;
+    border-bottom: 2px solid #e65100;
+    margin-bottom: 35px;
+}
+.company-headline h1{
+    font-size: 32px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+.company-main-txt p{
+    margin-bottom: 18px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+/* ============ clients-slider ===============*/
+
+.slider-logo-wrap{
+    margin: 25px 0;
+}
+.clients-slider div img{
+    display: block;
+    margin: 0 auto;
+}
+.clients-slider div{
+
+    opacity: 0.5;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale);
+}
+.clients-slider div:hover{
+    opacity: 1;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: none;
+}
+
+
+/* ============ footer ===============*/
+
+
+footer{
+    background: none repeat scroll 0 0 #2c364a;
+    box-shadow: 0 70px 50px -20px #213040 inset;
+    clear: both;
+    color: #969ba5;
+    font-size: 12px;
+    line-height: 18px;
+    min-height: 171px;
+    padding: 0;
+    position: relative;
+}
+.footer-wrap{
+    padding: 0 15px;
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer-ask{
+    display: flex;
+    justify-content: start;
+}
+.footer-top{
+    padding: 15px 0;
+    border-bottom: 1px solid #f8f9fa12;
+}
+
+.icon-ask img{
+    width: 35px;
+    height: 35px;
+}
+.ask-txt{
+    color: #fff;
+    font-size: 13px;
+    padding: 0 15px;
+}
+.ft-form{
+    display: flex;
+    justify-content: start;
+}
+.ft-tel-input input{
+    width: 400px;
+}
+.btn-q{
+    border-radius: 0 2px 2px 0;
+}
+.ft-form{
+    border-radius: 2px 0 0 2px;
+}
+.footer-botton{
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-nav ul li{
+    margin: 0 25px;
+    width: 24%;
+}
+.footer-nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+}
+.footer-nav ul li a:hover {
+    color: #e65100;
+}
+.privaci,
+.footer-contact{
+    flex: none;
+}
+.footer-tel a,
+.footer-mail a{
+    margin-left: 10px;
+    color: #969ba5;
+}
+.footer-tel{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.privaci-mob{
+    display: none;
+}
+.footer-form-mob{
+    display: none;
+}
+
+/* ============ Company page ===============*/
+
+/*.company-page-img{*/
+    /*background-image: url("../img/inner2.jpg");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+.company-page-img{
+    margin: 9px 0 20px;
+}
+.company-page-img img{
+    width: 100%;
+    max-height: 400px;
+}
+
+/* ============ Services page ===============*/
+.page-content-services{
+    padding: 0 15px;
+    position: relative;
+    max-width: 880px;
+    margin: 0 auto;
+}
+.services-page-img{
+    margin: 5px 0 20px;
+}
+.services-page-img img{
+    width: 100%;
+}
+.order-services-wrap{
+   display: flex;
+    margin: 25px 0;
+}
+.order-btn{
+    background-color: #eaf0f2;
+    flex: none;
+    padding: 22px 35px;
+    display: flex;
+    align-items: center;
+}
+.order-txt{
+    background-color: #dfeaed;
+}
+.order-txt p{
+    padding: 22px 15px;
+    background: #dfeaed;
+    text-align: center;
+    line-height: 18px;
+    color: #555555;
+
+}
+
+/* ============ Catalog page ===============*/
+
+.cotalog-info{
+    margin: 55px 0;
+    font-size: 16px;
+}
+.catalog-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    margin-bottom: 15px;
+}
+.catalog-bl{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 35px;
+}
+.catalog-img img{
+    width: 100%;
+    height: 165px;
+}
+.catalog-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.catalog-body h4{
+    min-height: 55px;
+    padding-top: 10px;
+    color: #e65100;
+    font-size: 18px;
+    font-weight: bold;
+}
+.catalog-body p {
+    min-height: 70px;
+    font-size: 14px;
+}
+.catalog-btn{
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
