@@ -350,7 +350,7 @@
 }
 @media (max-width: 420px){
     .logo img {
-        max-height: 30px;
+        max-height: 45px;
     }
     .phone {
         font-size: 12px;

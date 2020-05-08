@@ -46,3 +46,10 @@ $(document).ready(function () {
 /*======== Slick slider ===========*/
 
 
+/*======== Menu navbar ===========*/
+
+$(document).click(function(e){
+    if($(e.target).closest('#navbarNav').length == 0) {
+        // Скрываем меню
+    }
+});
