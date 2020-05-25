@@ -68,10 +68,10 @@
                         <a class="nav-link" href="services.html">Услуги</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Контакты</a>
+                        <a class="nav-link" href="#">Прайсы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Прайсы</a>
+                        <a class="nav-link" href="contacts.html">Контакты</a>
                     </li>
                 </ul>
             </div>
