@@ -511,7 +511,6 @@ header {
     margin: 0 auto;
 }
 .clients-slider div{
-
     opacity: 0.5;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -527,6 +526,17 @@ header {
     filter: none;
 }
 
+/* privacy page */
+
+.privaci-body{
+    margin-bottom: 45px;
+}
+.privaci-body h4{
+    margin-top: 25px;
+}
+.privaci-body p{
+    margin-top: 15px;
+}
 
 /* ============ footer ===============*/
 
