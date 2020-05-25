@@ -56,22 +56,22 @@
             <div class="nav-mob collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav menu-site">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">Главная <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="company.html">О компании</a>
+                        <a class="nav-link" href="company.php">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="catalog.html">Каталог</a>
+                        <a class="nav-link" href="catalog.php">Каталог</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Услуги</a>
+                        <a class="nav-link" href="services.php">Услуги</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Прайсы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Контакты</a>
+                        <a class="nav-link" href="contacts.php">Контакты</a>
                     </li>
                 </ul>
             </div>
