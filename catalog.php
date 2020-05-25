@@ -18,84 +18,9 @@
 </head>
 <body>
 
-<div class="border-head">
-    <section class="head-wrap">
-
-        <div class="logo">
-            <a href="">
-                <img src="img/logo.png" alt="">
-            </a>
-        </div>
-
-        <div class="mail-none ">
-            <div class="top-description  contact-head">
-                <img alt="mail" src="img/mail-icon.png" title="icon-mail">
-                <h4>
-                    <a href="mailto:tehnolider@mail.ru">
-                        <span style="color: #000000;">tehnolider@mail.ru</span>
-                    </a>
-                </h4>
-            </div>
-        </div>
-        <div class="top-callback">
-            <div class="phone ">
-                <div class="phone-number">
-                    <div class="icon-mob phone-none">
-                        <img src="img/mob.png" alt="">
-                    </div>
-                    <div class="phone-res">
-                        <a href="tel:88005500072" rel="nofollow">
-                                <span class="callibri_phone">
-                                    <span>8 (800)</span> 550-00-72</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="phone-desc phone-none">
-                    звонок бесплатный
-                </div>
-            </div>
-            <div class="callback phone-none">
-                <button class="btn btn-default white btn-xs" type="button" data-toggle="modal"
-                        data-target="#formTelephon">Заказать звонок
-                </button>
-            </div>
-
-        </div>
-    </section>
-</div>
-<section class="nav-site">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <button class="navbar-toggler btn-mob-v" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="line line-m"></span>
-            <span class="line line-m"></span>
-            <span class="line"></span>
-        </button>
-        <div class="nav-mob collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav menu-site">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="company.html">О компании</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="catalog.html">Каталог</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Услуги</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Прайсы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacts.html">Контакты</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</section>
+<!--Header-->
+<?php require_once('blocks/header.php'); ?>
+<!--Header END-->
 
 <section>
     <div class="company-page-img">
@@ -265,89 +190,18 @@
 
 </section>
 
-<footer>
-    <div class="footer-wrap">
-        <div class="row footer-top">
+<!--Footer-->
+<?php require_once('blocks/footer.php'); ?>
+<!--Footer END-->
 
-            <div class="footer-ask col-6 col-lg-3 col-md-4 col-sm-6 ">
-                <div class="icon-ask">
-                    <img src="img/telephone.png">
-                </div>
-                <div class="ask-txt">
-                    <p>Остались вопросы? <br>
-                        - мы перезвоним</p>
-                </div>
-            </div>
+<!--Modal call back-->
+<?php require_once('blocks/modal-call-back.php'); ?>
+<!--Modal call back END-->
 
-            <div class="footer-form col-6 col-lg-7 col-md-8 col-sm-6 ">
-                <form class="needs-validation ft-form" novalidate>
-                    <div class="form-row ft-tel-input">
-                        <input type="tel" class="ft-form form-control" id="validationTooltip11" placeholder=""
-                               required>
-                    </div>
-                    <div class="">
-                        <button class="btn-q btn btn-orange btn-md" type="submit">Отправить</button>
-                    </div>
+<!--Modal ask question -->
+<?php require_once('blocks/modal-ask-question.php'); ?>
+<!--Modal Modal ask question END-->
 
-                </form>
-                <div class="footer-form-mob">
-                    <div class="">
-                        <button class="btn-q btn btn-orange btn-md" type="button" data-toggle="modal"
-                                data-target="#formTelephon">Заказать звонок
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="footer-botton">
-
-            <div class="privaci">
-                <p>©
-                    <script>var mdate = new Date();
-                    document.write(mdate.getFullYear());</script>
-                    ТехноЛидер
-                </p>
-            </div>
-
-            <div class="footer-nav">
-                <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="company.html">О компании</a></li>
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="services.html">Услуги</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
-                    <li><a href="#">Прайсы</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-contact">
-                <div class="footer-tel">
-                    <i class="fa fa-phone"></i>
-                    <a href="tel:88005500072" rel="nofollow">
-                           <span style="color: #fff;">
-                               <span style="color: #969ba5;">8 (800)</span> 550-00-72</span>
-                    </a>
-                </div>
-                <div class="footer-mail">
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:tehnolider@mail.ru">tehnolider@mail.ru</a>
-                </div>
-                <div class="privaci-mob">
-                    <p>©
-                        <script>var mdate = new Date();
-                        document.write(mdate.getFullYear());</script>
-                        ТехноЛидер
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-</footer>
 
 
 <!-- Modal order a call -->
@@ -396,7 +250,7 @@
                         <div class="col-md-9 offset-md-2 col-sm-10 offset-sm-1 custom-control custom-checkbox mb-3 mt-4">
                             <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
                             <label class="custom-control-label politic-info" for="customControlValidation1">Я согласен
-                                на <a href="prevaci.html"
+                                на <a href="prevaci.php"
                                       style="color: #e65100;">обработку
                                     персональных данных</a></label>
                             <div class="invalid-feedback"></div>
